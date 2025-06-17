@@ -1,5 +1,5 @@
 import unittest
-from src.validator import validate_cpf, validate_cnpj
+from validator import validate_cpf, validate_cnpj
 
 class TestValidatorBehavior(unittest.TestCase):
     def test_should_accept_valid_cpf(self):
